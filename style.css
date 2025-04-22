@@ -1,0 +1,86 @@
+body {
+    background: url(assets/bg.jpg);
+    background-position: center;
+    background-size: cover;
+    font-family: "Alice", serif;
+}
+
+.img img {
+    border-radius: 20px;
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+main {
+    box-sizing: border-box;
+    max-width: 800px;
+    margin: 50px auto;
+    border-radius: 20px;
+    background-color: #f0e8c2;
+    padding: 24px;
+}
+
+section {
+    padding-left: 24px;
+    padding-right: 24px;
+}
+
+h1 {
+    font-size: 2.5rem;
+    color: #291B1A;
+}
+
+h2 {
+    font-size: 1.5rem;
+    color: #291B1A;
+}
+
+p,li {
+    line-height: 150%;
+    color: #573A37;
+}
+
+
+
+
+@media (max-width: 768px) {
+    body {
+        padding: 0 10px;
+        margin: 0;
+        overflow-x: hidden;
+    }
+
+   main {
+        margin: 20px auto;
+        padding: 16px;
+    }
+  
+    h1 {
+        font-size: 2rem;
+        text-align: center;
+    }
+
+    h2 {
+        font-size: 1.2rem;
+        margin-top: 20px;
+    }
+
+    section {
+        padding: 0;
+    }
+
+    ul {
+        padding-left: 20px;
+    }
+
+    p, li {
+        font-size: 1rem;
+        line-height: 1.5; 
+    }
+}
+
+
+
+
+
